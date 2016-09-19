@@ -16,12 +16,12 @@ class LoopByCategory extends WP_Widget {
     
     public function form( $instance ) {
         
-        $title   			= "";
-        $singleCat 			= "";
-        $multiCat 			= "";
+        $title   		= "";
+        $singleCat 		= "";
+        $multiCat 		= "";
         $posts_per_page 	= "";
-        $postType           = "";
-        $terms  = get_terms('category','orderby=count&hide_empty=1');
+        $postType       	= "";
+        $terms  		= get_terms('category','orderby=count&hide_empty=1');
         $sortlist = array(
         	'none',
 			'author',
@@ -34,7 +34,7 @@ class LoopByCategory extends WP_Widget {
 			'menu_order',
         );
         $sort              = "";
-        $order 			   = "";
+        $order 		   = "";
         
         if ( !empty( $instance[ 'multi_category' ] ) ) {
         	$multiCat   = $instance[ 'multi_category' ];
