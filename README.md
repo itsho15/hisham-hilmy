@@ -1,4 +1,4 @@
-This Widget Class to Filter Posts by Categories , Post types , Post-per-page 
+This Widget Class For Wordpress to Filter Posts by Categories , Post types , Post-per-page 
 
 Just include it in Functions.php ,
 To Design The Layout in front end 
