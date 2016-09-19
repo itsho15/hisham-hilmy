@@ -24,14 +24,14 @@ class LoopByCategory extends WP_Widget {
         $terms  		= get_terms('category','orderby=count&hide_empty=1');
         $sortlist = array(
         	'none',
-			'author',
-			'title',
-			'name',
-			'date', 
-			'modified', 
-			'rand',
-			'comment_count', 
-			'menu_order',
+		'author',
+		'title',
+		'name',
+		'date', 
+		'modified', 
+		'rand',
+		'comment_count', 
+		'menu_order',
         );
         $sort              = "";
         $order 		   = "";
